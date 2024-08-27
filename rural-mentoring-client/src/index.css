@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Colors */
+.primary-bg {
+  background-color: #007bff; /* Primary Color */
+}
+.secondary-bg {
+  background-color: #6c757d; /* Secondary Color */
+}
+.primary-text {
+  color: #007bff; /* Primary Text Color */
+}
+.secondary-text {
+  color: #6c757d; /* Secondary Text Color */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Alerts */
+.alert-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Form Elements */
+.form-control {
+  border-radius: 0.25rem;
+}
+
+.table-container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table thead th {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
